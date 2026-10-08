@@ -59,6 +59,6 @@ void Player::handleEvent(){
 
 }
 
-void Player::draw(sf::RenderWindow &window){
+void Player::draw(sf::RenderWindow &window) const{
     window.draw(*this);
 }

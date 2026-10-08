@@ -3,9 +3,11 @@
 #include "screen/ScreenHandler.hpp"
 #include "MapHandler.hpp"
 
+using ucint = unsigned const int;
+
 class gameHandler{
 private:
-    const unsigned int win_width = 1440, win_height = 810;
+    ucint win_width = 1440, win_height = 810;
 
     sf::RenderWindow window;
     sf::Clock clock;

@@ -21,7 +21,7 @@ void gameHandler::draw(){
 
 //------------------KONSTRUKTOR------------------------
 
-gameHandler::gameHandler() : scrHandler(deltaTime, window){
+gameHandler::gameHandler() : scrHandler(deltaTime, window, win_width, win_height){
     window.create(
         sf::VideoMode({win_width, win_height}), 
         "Shooter 3D",
